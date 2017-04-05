@@ -12,5 +12,14 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('spectral');
+});
+
+Route::get('/elements', function () {
+    return view('elements');
+});
+
+
+Route::get('/generic', function () {
+    return view('generic');
 });
