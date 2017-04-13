@@ -10,3 +10,16 @@ section#banner {
 		}
 	}
 }
+
+body.is-mobile.landing .wrapper.style4 {
+	background: url('images/background.jpg')center center fixed;
+	background-size: cover;
+}
+
+#main {
+
+	 > header {
+		background: url('images/background2.jpg')center center fixed;
+		background-size: cover;
+	}
+}
