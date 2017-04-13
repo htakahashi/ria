@@ -1,0 +1,12 @@
+
+// Test
+section#banner {
+	background: url('images/background.jpg')center center fixed;
+	background-size: cover;
+
+	div.inner {
+		h2 {
+			color: $yellow;
+		}
+	}
+}
