@@ -23,3 +23,17 @@ Route::get('/elements', function () {
 Route::get('/generic', function () {
     return view('generic');
 });
+
+Route::get('/register', function () {
+    return view('register');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/logout', 'Auth\LoginController@logout');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
