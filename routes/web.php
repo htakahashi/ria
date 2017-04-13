@@ -17,9 +17,15 @@ Route::get('/', function () {
 
 Route::get('/elements', function () {
     return view('elements');
-});
+})->middleware('auth');
 
 
 Route::get('/generic', function () {
     return view('generic');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->middleware('auth');
+
+
+

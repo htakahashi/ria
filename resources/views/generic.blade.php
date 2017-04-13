@@ -1,11 +1,11 @@
-@include('layouts.head')
+@extends('layouts.head')
 
 	<body>
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-				@include('layouts.nav')
+				@extends('layouts.nav')
 
 				<!-- Main -->
 					<article id="main">
@@ -33,4 +33,4 @@
 					</article>
 
 				
-				@include('layouts.footer')
+				@extends('layouts.footer')

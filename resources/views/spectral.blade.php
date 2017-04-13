@@ -1,11 +1,11 @@
-@include('layouts.head')
+@extends('layouts.head')
 
 	<body class="landing">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
-				@include('layouts.nav')
+				@extends('layouts.nav')
 
 				<!-- Banner -->
 					<section id="banner">
@@ -114,4 +114,4 @@
 						</div>
 					</section>
 
-				@include('layouts.footer')
+				@extends('layouts.footer')
