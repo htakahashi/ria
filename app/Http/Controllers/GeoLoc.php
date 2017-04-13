@@ -8,8 +8,9 @@ use \Torann\GeoIP\Facades\GeoIP;
 class GeoLoc extends Controller
 {
     //Retrieves Geolocation and returns it to the view
-    public function GeoLoc() {
-        $location = GeoIP::getLocation();
-        return view('spectral');
+    public function Main() {
+        $data = GeoIP::getLocation();
+        //$location = geoip('country');
+        return view('spectral', compact('data'));
     }
 }

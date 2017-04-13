@@ -44,8 +44,10 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Spectral</h2>
-							<p>Your Location:<br />
-								</p>
+							<p>Your Location:<br /><br />
+								{{Debugbar::info($data)}}
+								{{$data['city'].', '.$data['state']}}<br />
+								{{$data['country']}}</p>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>

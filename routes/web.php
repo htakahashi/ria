@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('spectral');
-});
+Route::get('/', 'GeoLoc@Main');
 
 Route::get('/elements', function () {
     return view('elements');
