@@ -39,7 +39,7 @@
                         </div>
                         <div class="btn-center">
                             <button type="submit" class="special">
-                                Register
+                                Submit
                             </button>
                         </div>
                         <div class="btn-center">

@@ -48,6 +48,9 @@
                                     </form>
                                 </li>
                             @endif
+                            @if ( Auth::check() && Auth::user()->isAdmin() )
+                                <li><a href="admin">admin</a></li>
+                            @endif
                         </ul>
                     </div>
                 </li>

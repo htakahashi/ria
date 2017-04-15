@@ -35,7 +35,7 @@
                                             <li><a href="register">Sign Up</a></li>
                                             <li><a href="login">Log In</a></li>
                                             @else
-                                            <a href="{{ route('logout') }}"
+                                            <li><a href="{{ route('logout') }}"
                                                 onclick="event.preventDefault();
                                                 document.getElementById('logout-form').submit();">
                                                 Logout
@@ -44,6 +44,10 @@
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                 {{ csrf_field() }}
                                             </form>
+                                            </li>
+                                            @endif
+                                            @if ( Auth::check() && Auth::user()->isAdmin() )
+                                                <li><a href="admin">admin</a></li>
                                             @endif
  										</ul>
  									</div>
