@@ -67,3 +67,6 @@ Route::get('admin', ['middleware' => ['auth', 'admin'], function() {
 }]);
 
 Route::post('admin/update', 'AdminController@update');
+
+Route::post('/', 'SubscriptionController@create');
+

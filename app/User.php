@@ -4,9 +4,11 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Laravel\Cashier\Billable;
 
 class User extends Authenticatable
 {
+    use Billable;
     use Notifiable;
 
     /**
@@ -27,8 +29,12 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    protected $dates = ['trial_ends_at', 'subscription_ends_at'];
+
     public function isAdmin()
     {
         return $this->is_admin; // this looks for an admin column in your users table
     }
+
+
 }

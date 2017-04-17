@@ -97,12 +97,22 @@
 <section id="cta" class="wrapper style4">
 	<div class="inner">
 		<header>
-			<h2>Arcue ut vel commodo</h2>
-			<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+			<h2>WANT TO BE AN ADMIN?</h2>
+			<p>It's just $5,000 a year!</p>
 		</header>
 		<ul class="actions vertical">
-			<li><a href="#" class="button fit special">Activate</a></li>
-			<li><a href="#" class="button fit">Learn More</a></li>
+			<li><form action="" method="POST">
+					{{ csrf_field() }}
+					<script
+							src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+							data-key="pk_test_F0djliWgtTE5noZ2UWMu0tzO"
+							data-amount="500000"
+							data-name="SPECTRAL"
+							data-description="Admin Access"
+							data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+							data-locale="auto">
+					</script>
+				</form></li>
 		</ul>
 	</div>
 </section>
