@@ -96,24 +96,36 @@
 <!-- CTA -->
 <section id="cta" class="wrapper style4">
 	<div class="inner">
-		<header>
-			<h2>WANT TO BE AN ADMIN?</h2>
-			<p>It's just $5,000 a year!</p>
-		</header>
-		<ul class="actions vertical">
-			<li><form action="" method="POST">
-					{{ csrf_field() }}
-					<script
-							src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-							data-key="pk_test_F0djliWgtTE5noZ2UWMu0tzO"
-							data-amount="500000"
-							data-name="SPECTRAL"
-							data-description="Admin Access"
-							data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-							data-locale="auto">
-					</script>
-				</form></li>
-		</ul>
+		@if(Auth::check() && Auth::user()->subscribed('yearly'))
+			<header>
+				<h2>Hey Subscriber</h2>
+				<p>Thanks for supporting us!</p>
+			</header>
+		@elseif(Auth::check())
+			<header>
+				<h2>WANT TO BE AN ADMIN?</h2>
+				<p>It's just $5,000 a year!</p>
+			</header>
+			<ul class="actions vertical">
+				<li><form action="" method="POST">
+						{{ csrf_field() }}
+						<script
+								src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+								data-key="pk_test_F0djliWgtTE5noZ2UWMu0tzO"
+								data-amount="500000"
+								data-name="SPECTRAL"
+								data-description="Admin Access"
+								data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+								data-locale="auto">
+						</script>
+					</form></li>
+			</ul>
+		@else
+			<header>
+				<h2>WANT TO BE AN ADMIN?</h2>
+				<p>Sign in for a cool offer when you scroll back here!</p>
+			</header>
+		@endif
 	</div>
 </section>
 @endsection
