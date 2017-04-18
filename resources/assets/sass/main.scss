@@ -11,6 +11,7 @@ section#banner {
 	}
 }
 
+
 body.is-mobile.landing .wrapper.style4 {
 	background: url('images/background.jpg')center center fixed;
 	background-size: cover;
@@ -23,3 +24,20 @@ body.is-mobile.landing .wrapper.style4 {
 		background-size: cover;
 	}
 }
+
+// LOGIN SCSS
+div.login-container, div.register-container {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+	label {
+		color: $black !important;
+	}
+	input {
+		color: $black !important;
+	}
+	
+}
+
+
+
