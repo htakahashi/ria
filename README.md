@@ -3,7 +3,7 @@
   <li>
     Get rid of the basketball and the camera at the bottom of the page.
     <ul>
-      <p>Removed '<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>' & 	'<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>' from view.</p>
+      <p>Removed fa-instagram and fa-dribbble list items from view.</p>
     </ul>
    </li>
   <li>There is an email icon at the bottom of the page. When someone clicks it, please have it send me an email message.</li>
