@@ -4,6 +4,7 @@
     Get rid of the basketball and the camera at the bottom of the page.
     <ul>
       <p>Removed fa-instagram and fa-dribbble list items from view.</p>
+      <p>Push Commit 1ddb6321193d98610367306f999c25a99ae0dade</p>
     </ul>
    </li>
   <li>There is an email icon at the bottom of the page. When someone clicks it, please have it send me an email message.</li>
