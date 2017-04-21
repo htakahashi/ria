@@ -109,24 +109,24 @@
 									<h3><i class="material-icons">near_me</i>Arcu accumsan</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
+								<li class="icon">
+									<h3><i class="material-icons">computer</i>Ac Augue Eget</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
+								<li class="icon">
+									<h3><i class="material-icons">code</i>Mus Scelerisque</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
+								<li class="icon">
+									<h3><i class="material-icons">headset</i>Mauris Imperdiet</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
+								<li class="icon">
+									<h3><i class="material-icons">gesture</i>Aenean Primis</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
+								<li class="icon">
+									<h3><i class="material-icons">flag</i>Tortor Ut</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
 							</ul>
