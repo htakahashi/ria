@@ -2386,6 +2386,12 @@
 			text-align: left;
 			width: 50%;
 		}
+		
+		.features li.icon h3 i.material-icons {
+			color: #13F7CA;
+		    position: relative;
+		    left: -57px;
+		}
 
 			.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
