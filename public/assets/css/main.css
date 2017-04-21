@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 /*
 	Spectral by HTML5 UP
@@ -1912,6 +1913,15 @@
 				display: inline-block;
 				font-size: 1.5em;
 			}
+			
+			.icon.major i.material-icons {
+				    -moz-transform: rotate(45deg);
+					-webkit-transform: rotate(45deg);
+					-ms-transform: rotate(45deg);
+					transform: rotate(45deg);
+				    font-size: 1.35em;
+				    padding: 20px 0px 20px 0px;
+			}
 
 			@media screen and (max-width: 736px) {
 
@@ -2384,6 +2394,12 @@
 			position: relative;
 			text-align: left;
 			width: 50%;
+		}
+		
+		.features li.icon h3 i.material-icons {
+			color: #13F7CA;
+		    position: relative;
+		    left: -57px;
 		}
 
 			.features li:nth-child(1) {
@@ -3708,6 +3724,10 @@
 		#footer .icons {
 			font-size: 1.25em;
 		}
+			#footer .icons i.material-icons {
+			    position: relative;
+   				top: 5px;
+			}
 
 			#footer .icons a {
 				color: rgba(255, 255, 255, 0.5);
