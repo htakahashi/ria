@@ -152,7 +152,7 @@
 						<ul class="icons">
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon"><span class="label"><i class="icon material-icons">mail_outline</i>Email</span></a></li>
+							<li><a href="#" class="icon"><span class="label"><i class="material-icons">mail_outline</i>Email</span></a></li>
 						</ul>
 						<ul class="copyright">
 							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
