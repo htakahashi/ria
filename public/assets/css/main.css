@@ -3719,8 +3719,7 @@
 				color: rgba(255, 255, 255, 0.5);
 			}
 
-				#footer .icons a:hover,
-				#footer .icons i.material_icons:hover {
+				#footer .icons a:hover {
 					color: #fff;
 				}
 
