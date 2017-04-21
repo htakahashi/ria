@@ -1915,9 +1915,12 @@
 			}
 			
 			.icon.major i.material-icons {
-				    transform: rotate(90deg);
+				    -moz-transform: rotate(45deg);
+					-webkit-transform: rotate(45deg);
+					-ms-transform: rotate(45deg);
+					transform: rotate(45deg);
 				    font-size: 1.35em;
-				    padding: 10px 0px 15px 0px;
+				    padding: 20px 0px 20px 0px;
 			}
 
 			@media screen and (max-width: 736px) {

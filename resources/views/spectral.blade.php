@@ -64,7 +64,7 @@
 								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
 							</header>
 							<ul class="icons major">
-								<li><span class="icon major style1"><i class="material-icons">beach_access</i></span></li>
+								<li><span class="icon major style1"><i class="material-icons">pool</i></span></li>
 								<li><span class="icon major style2"><i class="material-icons">casino</i></span></li>
 								<li><span class="icon major style3"><i class="material-icons">golf_course</i></span></li>
 							</ul>
