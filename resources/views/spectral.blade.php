@@ -105,8 +105,8 @@
 								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
 							</header>
 							<ul class="features">
-								<li class="icon"><i class="material-icons">near_me</i>
-									<h3>Arcu accumsan</h3>
+								<li class="icon">
+									<h3><i class="material-icons">near_me</i>Arcu accumsan</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
 								<li class="icon fa-laptop">
