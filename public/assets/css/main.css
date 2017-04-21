@@ -1913,6 +1913,12 @@
 				display: inline-block;
 				font-size: 1.5em;
 			}
+			
+			.icon.major i.material-icons {
+				    transform: rotate(90deg);
+				    font-size: 1.35em;
+				    padding: 10px 0px 15px 0px;
+			}
 
 			@media screen and (max-width: 736px) {
 
