@@ -14,6 +14,9 @@
     </ul>
   </li>
   <li>Need to see a list of users, when they registered, and who has active payment subscriptions.</li>
+    <ul>
+      Added Reports View that shows all users, what date they registered and if they have an active subscription
+    </ul>
   <li>Need to brand all the images with photos of the same theme. Ex. godzilla, video games, art, music, robots, etc.</li>
   <li>I need the list of users to be paginated. Only 20 users at a time.</li>
 </ol>
