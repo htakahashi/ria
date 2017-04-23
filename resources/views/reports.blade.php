@@ -10,6 +10,23 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-
+		<table>
+			<thead>
+				<tr>
+					<th>Username</th>
+					<th>Enroll Date</th>
+					<th>Subscription Active</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach($users as $user)
+					<tr>
+						<td>{{ $user->username }}</td>
+						<td>{{ $user->enroll_date }}</td>
+						<td>{{ $user->subscription_active }}</td>
+					</tr>
+				@endforeach
+			</tbody>
+		</table>
 	</body>
 </html>
