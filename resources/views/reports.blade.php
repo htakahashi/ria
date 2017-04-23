@@ -52,6 +52,7 @@
 								</tr>
 							</thead>
 							<tbody>
+							{{ dd($subscriptions) }}
 								@foreach( $subscriptions as $subscription)
 									<tr>
 										<td>{{ $subscriptions->username }}</td>
