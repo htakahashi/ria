@@ -52,11 +52,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<!--  @foreach ($users as $user)
-									<tr>
-										<td>{{ $user->username }}</td>
-									</tr>
-								@endforeach -->
+								{{ dd($users) }}
 							</tbody>
 						</table>
 					</article>
