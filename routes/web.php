@@ -26,7 +26,7 @@ Route::get('/generic', function () {
 
 Route::get('/reports', function () {
 	
-	$test = DB::table('subscriptions')->get();
+	$allUsers = DB::table('subscriptions')->get();
 	
-	return view('reports', $test);
+	return view('reports', compact('$allUsers'));
 });
