@@ -19,13 +19,14 @@
 				</tr>
 			</thead>
 			<tbody>
-				@foreach($users as $user)
+				<!-- @foreach($users as $user)
 					<tr>
 						<td>{{ $user->username }}</td>
 						<td>{{ $user->enroll_date }}</td>
 						<td>{{ $user->subscription_active }}</td>
 					</tr>
 				@endforeach
+				 -->
 			</tbody>
 		</table>
 	</body>
