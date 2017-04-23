@@ -55,6 +55,8 @@
 								@foreach( $subscriptions as $subscription)
 									<tr>
 										<td>{{ $subscription -> username }}</td>
+										<td>{{ $subscription -> enroll_date }}</td>
+										<td>{{ $subscription -> subscription_active }}</td>
 									</tr>
 								@endforeach
 							</tbody>
