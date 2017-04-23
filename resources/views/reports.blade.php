@@ -52,7 +52,6 @@
 								</tr>
 							</thead>
 							<tbody>
-								{{ dd($users) }}
 							</tbody>
 						</table>
 					</article>
