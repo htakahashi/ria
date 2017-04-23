@@ -29,7 +29,7 @@
 									<div id="menu">
 										<ul>
 											<li><a href="/">Home</a></li>
-											<li><a href="/reports">Elements</a></li>
+											<li><a href="/reports">Reports</a></li>
 											<li><a href="/generic">Generic</a></li>
 											<li><a href="/elements">Elements</a></li>
 											<li><a href="#">Sign Up</a></li>
