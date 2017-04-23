@@ -28,6 +28,5 @@ Route::get('/reports', function () {
 	
 	$users = DB::table('subscriptions')->get();
 	
-	dd($users);
-	//return view('reports', compact('$users'));
+	return view('reports', $users);
 });
