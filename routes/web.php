@@ -28,5 +28,5 @@ Route::get('/reports', function () {
 	
 	$users = DB::table('subscriptions')->get();
 	
-	return view('reports', compact('$users'));
+	return view('reports', $users);
 });
