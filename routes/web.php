@@ -28,7 +28,5 @@ Route::get('/reports', function () {
 	
 	$test = DB::table('subscriptions')->get();
 	
-	return view('reports', [
-			'name' => 'test'
-	]);
+	return view('reports', $test);
 });
