@@ -52,7 +52,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								{{ dd( $allUsers) }}
+								{{ dd( $subscriptions) }}
 							</tbody>
 						</table>
 					</article>
