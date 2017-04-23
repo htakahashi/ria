@@ -11,15 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('spectral');
-});
 
-Route::get('/elements', function () {
-    return view('elements');
-});
-
-
-Route::get('/generic', function () {
-    return view('generic');
-});
+Route::get('/', 'PostsController@index');
+Route::get('/home', 'PostsController@index');
+Route::get('/elements', 'PostsController@elements');
+Route::get('/generic', 'PostsController@generic');
