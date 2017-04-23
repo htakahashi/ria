@@ -52,9 +52,9 @@
 								</tr>
 							</thead>
 							<tbody>
+								{{ dd($test) }}
 							</tbody>
 						</table>
-						<?php echo '<pre>' . print_r(get_defined_vars(), true) . '</pre>';?>
 					</article>
 
 				<!-- Footer -->
