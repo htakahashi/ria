@@ -23,3 +23,12 @@ Route::get('/elements', function () {
 Route::get('/generic', function () {
     return view('generic');
 });
+
+Route::get('/reports', function () {
+	
+	$users = DB::table('subscriptions')->get();
+	
+	return $users;
+	
+	//return view('elements');
+});
