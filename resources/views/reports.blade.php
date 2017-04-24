@@ -43,7 +43,7 @@
 
 				<!-- Main -->
 					<article id="main">
-						<div style="width: 50%; margin: 0 auto;>
+						<div style="width: 50%; margin: 0 auto;">
 							<table>
 								<thead>
 									<tr>
