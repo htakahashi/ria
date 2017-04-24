@@ -45,7 +45,7 @@
 				<!-- Main -->
 					<article id="main">
 						<div style="width: 50%; margin: 0 auto;">
-							<table>
+							<table id="subcriptions_table">
 								<thead>
 									<tr>
 										<td>Username</td>
@@ -89,5 +89,12 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"></script>
+			<script>
+				var dataTable = $("#subcriptions_table");
+				
+				$(document).ready(function(){
+					dataTable.DataTable();
+				});
+			</script>
 	</body>
 </html>
