@@ -90,10 +90,12 @@
 			<script src="assets/js/main.js"></script>
 			<script src="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"></script>
 			<script>
-				var dataTable = $("#subcriptions_table");
+				var $dataTable = $("#subcriptions_table");
 				
 				$(document).ready(function(){
-					dataTable.DataTable();
+					$dataTable .DataTable( {
+						"paging":   false
+					});
 				});
 			</script>
 	</body>
