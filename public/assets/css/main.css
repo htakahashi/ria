@@ -3795,6 +3795,19 @@
 			}
 
 		}
+		
+/* Reports */
+	#reports {
+		background-color: #92a5b8;
+	}	
+		
+	#reports table#subcriptions_table tbody {
+		color: #000000;
+	}
+	
+	#reports table#subcriptions_table tbody tr td {
+		border-bottom: 1px solid #000000;
+	}
 
 /* Landing */
 

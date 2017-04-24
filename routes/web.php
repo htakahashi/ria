@@ -23,3 +23,10 @@ Route::get('/elements', function () {
 Route::get('/generic', function () {
     return view('generic');
 });
+
+Route::get('/reports', function () {
+	
+	$subscriptions = DB::table('subscriptions')->get();
+	
+	return view('reports')->with(compact('subscriptions'));
+});

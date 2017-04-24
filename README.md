@@ -3,17 +3,28 @@
   <li>
     Get rid of the basketball and the camera at the bottom of the page.
     <ul>
-      <p>Removed fa-instagram and fa-dribbble list items from view.</p>
+      <li>Removed fa-instagram and fa-dribbble list items from view.</li>
     </ul>
    </li>
   <li>
     Replace Font Awesome with Material Icons - https://material.io/icons/.
     <ul>
-      <p>Added Material-icon CDN to main stylesheet</p>
-      <p>Left Font Awesome in because https://material.io/icons/ Does not have a facebook or twitter icon</p>
+      <li>Added Material-icon CDN to main stylesheet</li>
+      <li>Left Font Awesome in because https://material.io/icons/ Does not have a facebook or twitter icon</li>
     </ul>
   </li>
   <li>Need to see a list of users, when they registered, and who has active payment subscriptions.</li>
-  <li>Need to brand all the images with photos of the same theme. Ex. godzilla, video games, art, music, robots, etc.</li>
-  <li>The home page has some content in the hero image that I would like to be able to update. Please build a page where I can update, “Spectral”, “Another fine responsive…”, the red button text, and “Learn more”</li>
+    <ul>
+      <li>Added Reports View that shows all users, what date they registered and if they have an active subscription</li>
+    </ul>
+  <li>Need to brand all the images with photos of the same theme. Ex. godzilla, video games, art, music, robots, etc.
+  	<ul>
+  		<li>Added images to home page</li>
+  	</ul>
+  </li>
+  <li>I need the list of users to be paginated. Only 20 users at a time.
+    <ul>
+    	<li>Put table in change 4 into dataTable and incorporated pagination</li>
+    </ul>
+  </li>
 </ol>
