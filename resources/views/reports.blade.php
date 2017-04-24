@@ -43,24 +43,26 @@
 
 				<!-- Main -->
 					<article id="main">
-						<table>
-							<thead>
-								<tr>
-									<td>Username</td>
-									<td>Enroll Date</td>
-									<td>Active Subscription</td>
-								</tr>
-							</thead>
-							<tbody>
-								@foreach( $subscriptions as $subscription)
+						<div style="width: 50%; margin: 0 auto;>
+							<table>
+								<thead>
 									<tr>
-										<td>{{ $subscription -> username }}</td>
-										<td>{{ $subscription -> enroll_date }}</td>
-										<td>{{ $subscription -> subscription_active }}</td>
+										<td>Username</td>
+										<td>Enroll Date</td>
+										<td>Active Subscription</td>
 									</tr>
-								@endforeach
-							</tbody>
-						</table>
+								</thead>
+								<tbody>
+									@foreach( $subscriptions as $subscription)
+										<tr>
+											<td>{{ $subscription -> username }}</td>
+											<td>{{ $subscription -> enroll_date }}</td>
+											<td>{{ $subscription -> subscription_active }}</td>
+										</tr>
+									@endforeach
+								</tbody>
+							</table>
+						</div>
 					</article>
 
 				<!-- Footer -->
