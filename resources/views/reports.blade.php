@@ -93,7 +93,7 @@
 				var $dataTable = $("#subcriptions_table");
 				
 				$(document).ready(function(){
-					$dataTable .DataTable( {
+					$dataTable.DataTable( {
 						"paging":   false
 					});
 				});
