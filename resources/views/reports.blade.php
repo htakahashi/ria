@@ -53,7 +53,7 @@
 										<td>Active Subscription</td>
 									</tr>
 								</thead>
-								<tbody>
+								<tbody style="color: #000000;">
 									@foreach( $subscriptions as $subscription)
 										<tr>
 											<td>{{ $subscription -> username }}</td>
