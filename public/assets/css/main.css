@@ -3804,6 +3804,11 @@
 	#reports table#subcriptions_table tbody tr td {
 		border-bottom: 1px solid #000000;
 	}
+	
+	#reports div#subcriptions_table_info,
+	#reports dov#subcriptions_table_paginate {
+		color: #ffffff;
+	}
 
 /* Landing */
 
