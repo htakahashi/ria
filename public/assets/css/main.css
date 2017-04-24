@@ -3795,6 +3795,10 @@
 			}
 
 		}
+		
+	#reports table#subcriptions_table tbody {
+		color: #000000;
+	}
 
 /* Landing */
 

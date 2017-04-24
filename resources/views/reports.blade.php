@@ -43,7 +43,7 @@
 					</header>
 
 				<!-- Main -->
-					<article id="main">
+					<article id="reports">
 						<div style="width: 50%; margin: 0 auto;">
 							<table id="subcriptions_table">
 								<thead>
@@ -53,7 +53,7 @@
 										<td style="border-bottom: 1px solid #000000;">Active Subscription</td>
 									</tr>
 								</thead>
-								<tbody style="color: #000000;">
+								<tbody>
 									@foreach( $subscriptions as $subscription)
 										<tr>
 											<td>{{ $subscription -> username }}</td>
