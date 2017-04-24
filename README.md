@@ -17,10 +17,14 @@
     <ul>
       <li>Added Reports View that shows all users, what date they registered and if they have an active subscription</li>
     </ul>
-  <li>Need to brand all the images with photos of the same theme. Ex. godzilla, video games, art, music, robots, etc.</li>
+  <li>Need to brand all the images with photos of the same theme. Ex. godzilla, video games, art, music, robots, etc.
+  	<ul>
+  		<li>Added images to home page</li>
+  	</ul>
+  </li>
   <li>I need the list of users to be paginated. Only 20 users at a time.
     <ul>
-    <li>Put table in change 4 into dataTable and incorporated pagination</li>
+    	<li>Put table in change 4 into dataTable and incorporated pagination</li>
     </ul>
   </li>
 </ol>
