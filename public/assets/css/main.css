@@ -3796,18 +3796,17 @@
 
 		}
 		
-/* Reports */		
+/* Reports */
+	#reports article {
+		background-color: #92a5b8;
+	}	
+		
 	#reports table#subcriptions_table tbody {
 		color: #000000;
 	}
 	
 	#reports table#subcriptions_table tbody tr td {
 		border-bottom: 1px solid #000000;
-	}
-	
-	#reports div#subcriptions_table_info,
-	#reports dov#subcriptions_table_paginate {
-		color: #ffffff;
 	}
 
 /* Landing */
