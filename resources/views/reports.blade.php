@@ -48,9 +48,9 @@
 							<table id="subcriptions_table">
 								<thead>
 									<tr>
-										<td>Username</td>
-										<td>Enroll Date</td>
-										<td>Active Subscription</td>
+										<td style="border-bottom: 1px solid #000000;">Username</td>
+										<td style="border-bottom: 1px solid #000000;">Enroll Date</td>
+										<td style="border-bottom: 1px solid #000000;">Active Subscription</td>
 									</tr>
 								</thead>
 								<tbody style="color: #000000;">
