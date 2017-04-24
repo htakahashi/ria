@@ -94,7 +94,9 @@
 				
 				$(document).ready(function(){
 					$dataTable.DataTable( {
-						"paging":   true
+						"paging":   true,
+						"pageLength": 20,
+						"lengthChange": false
 					});
 				});
 			</script>
