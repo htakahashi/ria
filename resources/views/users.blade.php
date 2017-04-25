@@ -43,19 +43,21 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Generic Page</h2>
-							<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+							<h2>Users Page</h2>
+							<p>See Below...</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
 
-								<h3>Users</h3>
+								<h3>Users paginated by 20</h3>
 								
 								<ul>
 								@foreach ($users as $user)
 									<li>{{$user['name']}} - {{$user['email']}}</li>
 								@endforeach
 								</ul>
+
+								<span>Pagination</span>
 								{{$users->links()}}
 								<hr />
 

@@ -7,3 +7,11 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+ul.paginiation li {
+	list-style-type: none;
+	float: left;
+}
+ul.paginiation li a {
+	border-bottom: none;
+}

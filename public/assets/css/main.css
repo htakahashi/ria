@@ -57,8 +57,3 @@ display:none
 #main > header:before {
 display:none
 }
-
-ul.pagination li {
-	list-style: none;
-	float: left;
-}
