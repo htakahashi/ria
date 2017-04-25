@@ -23,3 +23,6 @@ Route::get('/elements', function () {
 Route::get('/generic', function () {
     return view('generic');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
