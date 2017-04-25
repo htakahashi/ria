@@ -1,1 +1,59 @@
-.spotlight{display:block}.spotlight .image{display:inline-block;vertical-align:top}.spotlight .content{padding:4em 4em 2em 4em;display:inline-block}.spotlight:after{clear:both;content:'';display:block}.features{display:block}.features li{float:left}.features:after{content:'';display:block;clear:both}#banner,.wrapper.style4{background-image:url("../../images/banner.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}#banner:before,.wrapper.style4:before{background:#000000;content:'';height:100%;left:0;opacity:0.5;position:absolute;top:0;width:100%}#banner .inner,.wrapper.style4 .inner{position:relative;z-index:1}#banner{padding:14em 0 12em 0;height:auto}#banner:after{display:none}#cta .inner header{float:left}#cta .inner .actions{float:left}#cta .inner:after{clear:both;content:'';display:block}#main > header{background-image:url("../../images/banner.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;position:relative}#main > header:before{background:#000000;content:'';height:100%;left:0;opacity:0.5;position:absolute;top:0;width:100%}#main > header > *{position:relative;z-index:1}
+.icon.major {
+border:none
+}
+
+.icon.major:before {
+font-size:3em
+}
+
+label {
+color:#2E3842
+}
+
+input[type="text"],input[type="password"],input[type="email"],select,textarea {
+border:solid 1px #dfdfdf
+}
+
+input[type="submit"],input[type="reset"],input[type="button"],button,.button {
+border:solid 2px #dfdfdf
+}
+
+input[type="submit"].special,input[type="reset"].special,input[type="button"].special,button.special,.button.special {
+border:0!important
+}
+
+#menu {
+display:none
+}
+
+body.is-menu-visible #menu {
+display:block
+}
+
+#header nav > ul > li > a.menuToggle:after {
+display:none
+}
+
+#banner,.wrapper.style4 {
+-ms-behavior:url(assets/js/ie/backgroundsize.min.htc)
+}
+
+#banner:before,.wrapper.style4:before {
+display:none
+}
+
+#banner .more {
+height:4em
+}
+
+#banner .more:after {
+display:none
+}
+
+#main > header {
+-ms-behavior:url(assets/js/ie/backgroundsize.min.htc)
+}
+
+#main > header:before {
+display:none
+}

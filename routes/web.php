@@ -24,6 +24,4 @@ Route::get('/generic', function () {
     return view('generic');
 });
 
-Route::get('/users', function () {
-    return view('generic');
-});
+Route::get('users', 'UsersController@index');

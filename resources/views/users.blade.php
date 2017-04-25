@@ -51,7 +51,12 @@
 
 								<h3>Users</h3>
 								
-
+								<ul>
+								@foreach ($users as $user)
+									<li>{{$user['name']}} - {{$user['email']}}</li>
+								@endforeach
+								</ul>
+								{{$users->links()}}
 								<hr />
 
 								<h4>Feugiat aliquam</h4>
