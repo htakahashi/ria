@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
 
 class PostsController extends Controller
 {
@@ -26,7 +27,15 @@ class PostsController extends Controller
         return view('elements');
     }
 
+    public function register()
+    {
+        return view('register');
+    }
 
+    public function login()
+    {
+        return view('login');
+    }
     /**
      * Show the form for creating a new resource.
      *

@@ -13,6 +13,11 @@
 
 
 Route::get('/', 'PostsController@index');
-Route::get('/home', 'PostsController@index');
+Route::get('/index.html', 'PostsController@index');
 Route::get('/elements', 'PostsController@elements');
 Route::get('/generic', 'PostsController@generic');
+Route::get('/register', 'RegistrationController@create');
+Route::get('/login', 'SessionsController@create');
+//$table->string('ip_address', 45); for storing ip addresses
+//http://daipratt.co.uk/mysql-store-ip-address/
+//http://stackoverflow.com/questions/6427786/ip-address-storing-in-mysql-database-using-php
