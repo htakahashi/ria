@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+        'domain' => env('mg.aaronwilsonphoto.com'),
+        'secret' => env('key-83e6af119bc0e3c0288a49c926c82985'),
     ],
 
     'ses' => [

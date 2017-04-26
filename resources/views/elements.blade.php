@@ -13,6 +13,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+
+		<!--  -->
+		<!-- Include Material Icons to Replace Font Awesome Icons -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      	rel="stylesheet">
+      	<!--  -->
+      	<!--  -->
+
+
 	</head>
 	<body>
 
@@ -21,7 +31,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">Spectral</a></h1>
+						<h1><a href="/">Spectral</a></h1>
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -31,8 +41,8 @@
 											<li><a href="/">Home</a></li>
 											<li><a href="/generic">Generic</a></li>
 											<li><a href="/elements">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="/register">Sign Up</a></li>
+											<li><a href="/login">Log In</a></li>
 										</ul>
 									</div>
 								</li>
@@ -363,13 +373,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
+
+					<!-- After many many many hours of not being able to use email with Laravel decided on this...  -->
+					<form form action="mailto:kentakunte@gmail.​com" method="post" enctype="text/plain">
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							<li><a href="#" class="icon"><i class="zmdi zmdi-twitter"></i></a></li>
+							<li><a href="#" class="icon"><i class="zmdi zmdi-facebook"></i></a></li>
+							<li><a href="#" class="icon"><i class="zmdi zmdi-instagram"></i></a></li>
+							<li><a href="#" class="icon"><i class="zmdi zmdi-dribbble"></i></a></li>
+							<li><a href="#" onclick="$(this).closest('form').submit()" class="icon"><i class="zmdi zmdi-email"></i></a></li>
 						</ul>
+					</form>
+
 						<ul class="copyright">
 							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>

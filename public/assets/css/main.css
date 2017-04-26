@@ -1,5 +1,4 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
 	Spectral by HTML5 UP
@@ -16,6 +15,15 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Proza Libre', sans-serif;
+	}
+
+	h5 {
+		color: black;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -46,6 +54,10 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+	}
+
+	.panel {
+		margin-top: 30px;
 	}
 
 /* Box Model */
@@ -1660,7 +1672,7 @@
 	}
 
 	label {
-		color: #fff;
+		color: #000 !important;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 600;
