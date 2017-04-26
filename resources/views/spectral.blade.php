@@ -92,7 +92,7 @@
 							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
 								<h2>Successes</h2>
 								<p>Laravel strives to make the entire PHP development experience delightful, including the local development environment. Learning how to use Laravel has been a great accomplishment for me. I had never used a PHP Framework before and now I have a better understanding of how powerful they can be.
-</p>
+								</p>
 							</div>
 						</section>
 						<section class="spotlight">
@@ -109,20 +109,30 @@
 						</section>
 					</section>
 
-				<!-- Three -->
-<!-- 					<section id="three" class="wrapper style3 special">
+				<!-- Three:  Description of what I improved and how -->
+					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>Improvement Report</h2>
+								<p>[Easy] Replace Font Awesome with Material Icons<br />
+								Thanks to the cdnjs.cloudflare.com, I was able to use CDNjs to add MD Iconic Font into the site.
+								</p>
+								<p>[Easy] Brand all images with photos of the same theme<br />
+								Replaced images for a nature theme. Added some extra images.	
+								</p>
+								<p>[Medium] Email icon at bottom of page will open email prompt to send kentakunte@gmail.​com a message<br />
+								What I thought would be of medium skill level ended up being the hardest part of this project. I initially approached this improvement by using the Mailgun driver in Laravel to send out an email. For some reason, I was never able to get the email to send so after being stuck with this issue for some time I decided to take a different approach. Instead of using Mailgun I set up the icons as a form and the email icon would act as submit and the form action would mailto:kentakunte@gmail.​com
+								</p>
+								<p>[Hard] Create a functional sign-up and log in form<br />
+								Initially I thought this would be the most difficult of the project but Laravel made it easy. I used the Laravel authentication scaffolding to set up the login and registration pages. Laravel provides a quick way to scaffold all of the routes and views you need for authentication using one simple terminal command: [ php artisan make:auth ]. A few more tweaks and it was all up and running!
+								</p>
+
 
 									<ul class="actions">
-										<li><a href="#" class="button special icon fa-download">Icon</a></li>
-										<li><a href="#" class="button icon fa-download">Icon</a></li>
+										<li><a href="{{ url('/improvements.docx') }}" download class="button special icon fa-download">Download Report</a></li>
 									</ul>
 						</div>
-					</section> -->
+					</section>
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
