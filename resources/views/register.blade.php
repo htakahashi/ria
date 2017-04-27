@@ -4,30 +4,37 @@
 Register your new account
 @endsection
 
+@section('form_action')
+/register
+@endsection
+
+@section('value')
+Register
+@endsection
 
 @section('form')
-<form method="post" action="@yield('form_action')">
+<form method="POST" action="@yield('form_action')">
 {{ csrf_field() }}
 	<div class="row uniform">
 		<div class="6u 12u$(xsmall)">
-			<input type="text" name="@yield('form_name')" id="demo-name" value="" placeholder="Name" />
+			<input type="text" name="name" id="demo-name" placeholder="Name" />
 		</div>
 		<div class="6u 12u$(xsmall)">
-			<input type="email" name="@yield('form_email')" id="demo-email" value="" placeholder="Email" />
+			<input type="email" name="email" id="demo-email" placeholder="Email" />
 		</div>
 		<div class="6u 12u$(xsmall)">
-			<input type="email" name="@yield('form_password')" id="demo-email" value="" placeholder="password" />
+			<input type="password" name="password" id="demo" placeholder="password" />
 		</div>
-		<div class="6u$ 12u$(xsmall)">
-			<input type="email" name="@yield('form_password_c')" id="demo-email" value="" placeholder="password confirmation" />
-		</div>
-					
+		<div class="6u 12u$(xsmall)">
+			<input type="password" name="password_confirmation" id="demo" value="" placeholder="password confirmation" />
+		</div>	
 		<div class="12u$">
-			<ul class="actions">
-				<li><input type="submit" value="Send Message" class="special" /></li>
-				<li><input type="reset" value="Reset" /></li>
-			</ul>
+				<button type="submit" class="btn">@yield('value')</button>
+				<button type="reset" class="btn">Reset</button>
 		</div>
 	</div>
 </form>
+<div class="form-group">
+ 	@include('layouts.errors')
+</div>
 @endsection

@@ -15,5 +15,6 @@
 				</div>
 			</li>
 		</ul>
+		<span class="ml-auto">{{$user}}</span>
 	</nav>
 </header>

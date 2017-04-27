@@ -8,7 +8,12 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class User extends Authenticatable
 {
     use Notifiable;
+    use Laravel\Cashier\Billable;
 
+    class User extends Authenticatable
+    {
+        use Billable;
+    }
     /**
      * The attributes that are mass assignable.
      *

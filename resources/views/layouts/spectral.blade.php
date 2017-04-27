@@ -22,7 +22,7 @@
 							site template freebie<br />
 							crafted by <a href="http://html5up.net">HTML5 UP</a>.</p>
 							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
+								<li><a href="/register" class="button special">Activate</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -115,8 +115,8 @@
 								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
 							</header>
 							<ul class="actions vertical">
-								<li><a href="#" class="button fit special">Activate</a></li>
-								<li><a href="#" class="button fit">Learn More</a></li>
+								<li><a href="/register" class="button fit special">Activate</a></li>
+								<li><a href="/elements" class="button fit">Learn More</a></li>
 							</ul>
 						</div>
 					</section>
