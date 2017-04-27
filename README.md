@@ -12,3 +12,10 @@
 #The font doesn’t match the new theme, please change the existing font to something that matches.                                                                                                   #Get rid of the basketball and the camera at the bottom of the page.                                                                                                                                #Replace Font Awesome with Material Icons - https://material.io/icons/
 
 
+I was going to do the css to the scss, but my Gui was having SO many issues, that istead of not doing one, I did another one. 
+
+My most challenging one was the Font Awesome to Material Icons one... it took me a minute that I had to download it and implement it. 
+
+But the part I had the hardest time with was just pulling up the assignment with homestead and laravel. (as you already know). 
+
+I think that is what I want to work on the most after this. Understand more of laravel and github. 
