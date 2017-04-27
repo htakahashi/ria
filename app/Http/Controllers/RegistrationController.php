@@ -29,8 +29,7 @@ class RegistrationController extends Controller
     	//create and save user
     	$user = User::create(request(['name', 'email', 'password']));
     	//sign in
-    	auth()->login($user);
     	//redirect
-    	return view('/register', compact('$user'));
+    	return view('/register');
     }
 }
